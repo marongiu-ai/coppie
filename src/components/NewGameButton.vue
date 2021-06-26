@@ -8,7 +8,7 @@ export default {
   },
   setup(props, ctx) {
     const startNewGame = () => {
-      ctx.emit('Start-new-Game')
+      ctx.emit('Start-New-Game')
     }
 
     return {
