@@ -166,7 +166,7 @@ a:hover {
 
 @media screen and (min-width: 600px) {
   .game-board {
-    grid-template-columns: repeat(4, 226px);
+    grid-template-columns: repeat(5, 226px);
     grid-template-rows: repeat(4, 310px);
     grid-column-gap: 12px;
     grid-row-gap: 12px;
