@@ -93,7 +93,8 @@ export default {
 </script>
 
 <template>
-
+<img src="/images/scegli.png"
+ alt="Peek-a-Vue" class="title"/>
 
 
   <NewGameButton :newPlayer="newPlayer" @start-new-game="startNewGame" />
@@ -168,7 +169,12 @@ a:hover {
   }
 }
 
+.title{
+   width:40%;
+  
+  padding-bottom: 10px;
 
+}
 
 .shuffle-card-move {
   transition: transform 0.8s ease-in;
