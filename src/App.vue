@@ -95,6 +95,9 @@ export default {
 </script>
 
 <template>
+
+<img src="/images/scegli.png"
+
   <AppHero />
   <NewGameButton :newPlayer="newPlayer" @start-new-game="startNewGame" />
   <GameBoard :cardList="cardList" :status="status" @flip-card="flipCard" />
@@ -110,12 +113,19 @@ body {
 }
 
 html {
-  background-image: url('/images/page-bg.png');
+  background-image: linear-gradient(rgb(0, 33, 0),green, brown, green,rgb(0, 33, 0));
   background-color: #00070c;
 }
 
 h1 {
   margin-top: 0;
+}
+
+.title{
+   width:40%;
+  
+  padding-bottom: 10px;
+
 }
 
 a {
@@ -145,8 +155,8 @@ a:hover {
 
 .game-board {
   display: grid;
-  grid-template-columns: repeat(4, 60px);
-  grid-template-rows: repeat(4, 60px);
+  grid-template-columns: repeat(4, 244px);
+  grid-template-rows: repeat(4, 340px);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   justify-content: center;
