@@ -96,7 +96,7 @@ export default {
 
 <template>
 
-<img src="/images/scegli.png"
+
 
   <AppHero />
   <NewGameButton :newPlayer="newPlayer" @start-new-game="startNewGame" />
@@ -121,12 +121,7 @@ h1 {
   margin-top: 0;
 }
 
-.title{
-   width:40%;
-  
-  padding-bottom: 10px;
 
-}
 
 a {
   color: white;
