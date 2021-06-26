@@ -76,13 +76,13 @@ export default {
 }
 
 .button .icon-ghost {
-  position: absolute;
+  position: relative;
   left: -6px;
   opacity: 0;
 }
 
 .button .icon-play {
-  position: absolute;
+  position: relative;
   left: -6px;
   opacity: 1;
 }
