@@ -154,7 +154,19 @@ a:hover {
   justify-content: center;
 }
 
+@media screen and (min-width: 500px) {
+  .game-board {
+    grid-template-columns: repeat(240, 340px);
+    grid-template-rows: repeat(240, 340px);
+  }
+}
 
+@media screen and (min-width: 600px) {
+  .game-board {
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(4, 340px);
+  }
+}
 
 
 
