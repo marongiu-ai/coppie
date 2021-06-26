@@ -4,7 +4,6 @@ import createDeck from './features/createDeck'
 import createGame from './features/createGame'
 import { launchConfetti } from './utilities/confetti'
 import AppFooter from './components/AppFooter'
-import AppHero from './components/AppHero'
 import GameBoard from './components/GameBoard'
 import NewGameButton from './components/NewGameButton'
 import halloweenDeck from './data/halloweenDeck.json'
@@ -13,7 +12,6 @@ export default {
   name: 'App',
   components: {
     AppFooter,
-    AppHero,
     GameBoard,
     NewGameButton
   },
@@ -98,7 +96,6 @@ export default {
 
 
 
-  <AppHero />
   <NewGameButton :newPlayer="newPlayer" @start-new-game="startNewGame" />
   <GameBoard :cardList="cardList" :status="status" @flip-card="flipCard" />
   <AppFooter />
