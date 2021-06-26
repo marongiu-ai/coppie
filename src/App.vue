@@ -148,8 +148,8 @@ a:hover {
 
 .game-board {
   display: grid;
-  grid-template-columns: repeat(4, 240px);
-  grid-template-rows: repeat(4, 340px);
+  grid-template-columns: repeat(4, 180px);
+  grid-template-rows: repeat(4, 240px);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   justify-content: center;
