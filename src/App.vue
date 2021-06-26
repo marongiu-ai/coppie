@@ -149,8 +149,8 @@ a:hover {
 .game-board {
   display: grid;
   grid-template-columns: repeat(3, 130px);
-  grid-template-rows: repeat(6, 200px);
-  grid-column-gap: 8px;
+  grid-template-rows: repeat(6, 210px);
+  grid-column-gap: 6px;
   grid-row-gap: 12px;
   justify-content: center;
 }
@@ -158,7 +158,7 @@ a:hover {
 @media screen and (min-width: 500px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
-    grid-template-rows: repeat(6, 200px);
+    grid-template-rows: repeat(6, 210px);
   }
 }
 
