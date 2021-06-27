@@ -101,7 +101,7 @@ export default {
 }
 .card-image:hover{
   color: rgba(255, 255, 255, 1);
-  box-shadow: 5 10px 18px rgba(145, 92, 182, .4);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 
