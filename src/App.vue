@@ -3,7 +3,6 @@ import { ref, watch } from 'vue'
 import createDeck from './features/createDeck'
 import createGame from './features/createGame'
 import { launchConfetti } from './utilities/confetti'
-import AppFooter from './components/AppFooter'
 import GameBoard from './components/GameBoard'
 import NewGameButton from './components/NewGameButton'
 import halloweenDeck from './data/halloweenDeck.json'
@@ -12,7 +11,6 @@ import halloweenDeck from './data/halloweenDeck.json'
 export default {
   name: 'App',
   components: {
-    AppFooter,
     GameBoard,
     NewGameButton
   },
@@ -100,7 +98,7 @@ export default {
 
   <NewGameButton :newPlayer="newPlayer" @start-new-game="startNewGame" />
   <GameBoard :cardList="cardList" :status="status" @flip-card="flipCard" />
-  <AppFooter />
+  
 </template>
 
 <style>
@@ -196,11 +194,7 @@ a:hover {
   background-image: url('/images/backreduced.png');
   }
   
-   .card-face.is-back:hover {
-  
-  color: #f2f2f2;
-  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
-  } 
+
   
 }
 @media screen and  (min-width: 500px) and (max-width: 899px) {
