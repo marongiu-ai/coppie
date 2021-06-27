@@ -196,6 +196,12 @@ a:hover {
   background-image: url('/images/backreduced.png');
   }
   
+   .card-face.is-back:hover {
+  
+  color: #f2f2f2;
+  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+  } 
+  
 }
 @media screen and  (min-width: 500px) and (max-width: 899px) {
   .game-board {
