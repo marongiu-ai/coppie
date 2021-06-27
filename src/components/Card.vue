@@ -54,6 +54,10 @@ export default {
     </div>
     <div class="card-face is-back">
     <img class="spider" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Spider.png" >
+    <img class="cob-web cob-web-top-left" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-top-right" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-left" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Cobweb.png">
+        <img class="cob-web cob-web-bottom-right" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Cobweb.png">
     </div>
   </div>
 </template>
@@ -94,6 +98,12 @@ export default {
   border-color: #FF6D00;
   
   
+}
+
+.spider {
+  align-self: flex-start;
+  transform: translateY(-10px);
+  transition: transform 100ms ease-in-out;
 }
 
 .card-image {
