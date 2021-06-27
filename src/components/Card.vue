@@ -86,7 +86,8 @@ export default {
 
 .card-face.is-back {
   background-image: url('/images/Spider.png');
-  position: absolute;
+  width:100%;
+  height:100%;
   background-color: black;
   display: flex;
   justify-content: center;
