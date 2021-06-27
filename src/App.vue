@@ -155,7 +155,7 @@ a:hover {
   justify-content: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
