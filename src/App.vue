@@ -109,7 +109,7 @@ body {
 }
 
 html {
-  background-image: linear-gradient(rgb(0, 33, 0),green,rgb(226,98,0),rgb(49,0,98),rgb(199,32,110));
+  background-image: linear-gradient(rgb(0, 33, 0),green,rgb(49,0,98),rgb(226,98,0),rgb(199,32,110));
   background-color: #00070c;
 }
 
