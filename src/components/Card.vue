@@ -89,6 +89,7 @@ export default {
 .card-face.is-back {
   
   background-repeat: no-repeat;
+  
   background-image: url('/images/back.png');
   
 }
