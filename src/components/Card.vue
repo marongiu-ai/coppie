@@ -97,9 +97,7 @@ export default {
 
 .card-face.is-back:hover {
   
-  background-image: url('/images/back.png');
-  transform: translate(0%,-4%);
-  border: 2px solid rgba(99,195,40,1); 
+ 
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
