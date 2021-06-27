@@ -81,7 +81,7 @@ export default {
 }
 
 .card-face.is-front {
-  background-image: url('/images/card-bg.png');
+  
   color: white;
   transform: rotateY(180deg);
 }
@@ -98,7 +98,7 @@ export default {
 .card-face.is-back:hover {
   
   background-image: url('/images/back.png');
-  transform: translate(0%,-5%);
+  transform: translate(0%,-4%);
   border: 2px solid rgba(99,195,40,1);  
 }
 
