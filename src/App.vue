@@ -166,6 +166,7 @@ a:hover {
   background-repeat: no-repeat;
   
   background-image: url('/images/backreduced.png');
+  border: 1px solid rgba(255,90,0,1);
   }
   
 }
@@ -192,6 +193,7 @@ a:hover {
   background-repeat: no-repeat;
   
   background-image: url('/images/backreduced.png');
+  border: 1.5px solid rgba(255,90,0,1);
   }
   
 
