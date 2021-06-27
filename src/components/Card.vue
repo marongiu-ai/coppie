@@ -90,8 +90,7 @@ export default {
   
   background-repeat: no-repeat;
   background-image: url('/images/back.png');
-  align-self: flex-start;
-  border-color: #FF6D00;
+  
   
   
 }
