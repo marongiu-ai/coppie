@@ -102,7 +102,7 @@ export default {
   
 }
 .card-image:hover{
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 0, 1);
   box-shadow: 20px 20px 35px rgba(186, 0, 218, .9);
 }
 
