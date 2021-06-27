@@ -184,8 +184,8 @@ a:hover {
 }
 @media screen and (min-width: 500px) and (max-width: 899px) {
   .game-board {
-    grid-template-columns: repeat(4, 130px);
-    grid-template-rows: repeat(6, 180px);
+    grid-template-columns: repeat(5, 130px);
+    grid-template-rows: repeat(4, 180px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
   }
@@ -199,8 +199,8 @@ a:hover {
 }
 @media screen and  (min-width: 500px) and (max-width: 899px) {
   .game-board {
-    grid-template-columns: repeat(4, 130px);
-    grid-template-rows: repeat(6, 180px);
+    grid-template-columns: repeat(5, 130px);
+    grid-template-rows: repeat(4, 180px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
 
