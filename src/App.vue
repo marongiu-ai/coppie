@@ -161,9 +161,16 @@ a:hover {
     grid-template-rows: repeat(6, 180px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
-    background-image: url('/images/backreduced.png');
 
   }
+  .card-face.is-back {
+  
+  background-repeat: no-repeat;
+  
+  background-image: url('/images/backreduced.png');
+  
+}
+
 }
 
 @media screen and (min-width: 600px) {
