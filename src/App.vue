@@ -155,7 +155,7 @@ a:hover {
   justify-content: center;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 799px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -170,7 +170,7 @@ a:hover {
   }
   
 }
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 799px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -182,7 +182,7 @@ a:hover {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .game-board {
     grid-template-columns: repeat(5, 226px);
     grid-template-rows: repeat(4, 310px);
