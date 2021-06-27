@@ -93,57 +93,14 @@ export default {
 .card-face.is-back {
   
   background-repeat: no-repeat;
-  background-color: black;
+  background-image: url('/images/back.png');
   align-self: flex-start;
   border-color: #FF6D00;
   
   
 }
 
-.cob-web {
-  position: absolute;
-  width: 47px;
-  height: 47px;
-  transition: width 100ms ease-in-out, height 100ms ease-in-out;
-}
 
-.card-face:hover .cob-web {
-  width: 52px;
-  height: 52px;
-}
-
-.cob-web-top-left {
-  transform: rotate(270deg);
-  top: 0;
-  left: 0;
-}
-
-.cob-web-top-right {
-  top: 0;
-  right: 0;
-}
-
-.cob-web-bottom-left {
-  transform: rotate(180deg);
-  bottom: 0;
-  left: 0;
-}
-
-.cob-web-bottom-right {
-  transform: rotate(90deg);
-  bottom: 0;
-  right: 0;
-}
-
-.spider {
-  align-self: flex-start;
-  transform: translateY(-10px);
-  transition: transform 100ms ease-in-out;
-}
-
-.card-face is-back:hover .spider {
-  transform: translateY(0)
-}
 .card-image {
   max-width: 100%;
 }
