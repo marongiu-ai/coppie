@@ -53,7 +53,7 @@ export default {
       <img v-if="matched" src="/images/checkmark.svg" class="icon-checkmark" />
     </div>
     <div class="card-face is-back">
-    <img class="spider" src=”/images/Spider.png” />
+    <img class="spider" src="https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Images/Spider.png" >
     </div>
   </div>
 </template>
