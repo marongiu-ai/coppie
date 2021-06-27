@@ -91,20 +91,24 @@ export default {
   background-repeat: no-repeat;
   
   background-image: url('/images/back.png');
-  border: 2px solid rgba(255, 140, 0,0.6);
+  border: 2px solid rgba(255, 140, 0,1);
   
 }
 
 .card-face.is-back:hover {
   
   background-image: url('/images/back.png');
-  transform: translate(-5%,-5%);
+  transform: translate(0%,-5%);
   border: 2px solid rgba(255,90,0,1);  
 }
 
 
 .card-image {
   max-width: 100%;
+}
+
+.card-image:hover {
+  max-width: 110%;
 }
 
 .icon-checkmark {
