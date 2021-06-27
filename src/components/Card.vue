@@ -93,7 +93,7 @@ export default {
   
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .card-face.is-back {
    background-repeat: no-repeat;
   background-image: url('/images/backreduced.png');
