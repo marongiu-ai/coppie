@@ -85,8 +85,8 @@ export default {
 }
 
 .card-face.is-back {
-  background-image: url('/images/card-bg-empty.png');
-  color: white;
+  background-image: url('/images/Spider.png');
+  back-ground-color: black;
 }
 
 .card-image {
