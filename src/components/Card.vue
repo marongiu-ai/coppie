@@ -99,7 +99,7 @@ export default {
   transform: translate(0%,-4%);
   border: 2px solid rgba(99,195,40,1); 
 }
-.card:hover{
+.card-image:hover{
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
