@@ -98,12 +98,12 @@ export default {
 .card-face.is-back:hover {
   transform: translate(0%,-4%);
   border: 2px solid rgba(99,195,40,1);
-  box-shadow: 15px 15px 30px rgba(145, 92, 182, .7);
+  box-shadow: 20px 20px 35px rgba(145, 92, 182, .9);
   
 }
 .card-image:hover{
   color: rgba(255, 255, 255, 1);
-  box-shadow: 15px 15px 30px rgba(0, 66, 4, .7);
+  box-shadow: 20px 20px 35px rgba(186, 0, 218, .9);
 }
 
 
