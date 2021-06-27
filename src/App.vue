@@ -7,7 +7,6 @@ import GameBoard from './components/GameBoard'
 import NewGameButton from './components/NewGameButton'
 import halloweenDeck from './data/halloweenDeck.json'
 
-
 export default {
   name: 'App',
   components: {
