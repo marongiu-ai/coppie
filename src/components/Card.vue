@@ -91,6 +91,7 @@ export default {
   background-repeat: no-repeat;
   
   background-image: url('/images/back.png');
+  border: 2px solid rgba(255, 140, 0,0.6);
   
 }
 
@@ -98,7 +99,7 @@ export default {
   
   background-image: url('/images/back.png');
   transform: translate(-5%,-5%);
-  border: 2px solid rgba(255,255,255,0.7);  
+  border: 2px solid rgba(255,90,0,1);  
 }
 
 
