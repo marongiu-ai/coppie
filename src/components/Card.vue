@@ -53,7 +53,7 @@ export default {
       <img v-if="matched" src="/images/checkmark.svg" class="icon-checkmark" />
     </div>
     <div class="card-face is-back">
-    <img class="spider" url('/images/Spider.png')>
+    <img class="spider" src=”(/images/Spider.png)”>
     </div>
   </div>
 </template>
