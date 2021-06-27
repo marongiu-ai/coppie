@@ -99,7 +99,7 @@ export default {
   
   background-image: url('/images/back.png');
   transform: translate(0%,-5%);
-  border: 2px solid rgba(100,255,42,1);  
+  border: 2px solid rgba(99,195,40,1);  
 }
 
 
