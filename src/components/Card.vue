@@ -141,7 +141,7 @@ export default {
   transition: transform 100ms ease-in-out;
 }
 
-.card-back:hover .spider {
+.card-face is-back:hover .spider {
   transform: translateY(0)
 }
 .card-image {
