@@ -161,6 +161,8 @@ a:hover {
     grid-template-rows: repeat(6, 180px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
+    background-image: url('/images/backreduced.png');
+
   }
 }
 
