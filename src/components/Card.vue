@@ -91,7 +91,7 @@ export default {
   background-repeat: no-repeat;
   
   background-image: url('/images/back.png');
-  border: 3px solid rgba(105, 0, 205,1);
+  border: 1px solid rgba(105, 0, 205,1);
   
 }
 
@@ -107,9 +107,7 @@ export default {
   max-width: 100%;
 }
 
-.card-image:hover {
-  max-width: 110%;
-}
+
 
 .icon-checkmark {
   position: absolute;
