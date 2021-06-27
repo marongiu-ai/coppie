@@ -216,7 +216,7 @@ a:hover {
   .game-board {
     grid-template-columns: repeat(5, 210px);
     grid-template-rows: repeat(4, 303px);
-    grid-column-gap: 12px;
+    grid-column-gap: 15px;
     grid-row-gap: 12px;
   }
 }
