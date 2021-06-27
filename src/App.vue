@@ -147,7 +147,7 @@ a:hover {
 
 .game-board {
   display: grid;
-  grid-template-columns: repeat(3, 130px);
+  grid-template-columns: repeat(3, 128px);
   grid-template-rows: repeat(6, 177px);
   grid-column-gap: 6px;
   grid-row-gap: 12px;
@@ -156,7 +156,7 @@ a:hover {
 
 @media screen and (max-width: 499px) {
   .game-board {
-    grid-template-columns: repeat(3, 130px);
+    grid-template-columns: repeat(3, 128px);
     grid-template-rows: repeat(6, 177px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
@@ -172,7 +172,7 @@ a:hover {
 }
 @media screen and (max-width: 499px) {
   .game-board {
-    grid-template-columns: repeat(3, 130px);
+    grid-template-columns: repeat(3, 128px);
     grid-template-rows: repeat(6, 177px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
@@ -183,7 +183,7 @@ a:hover {
 }
 @media screen and (min-width: 500px) and (max-width: 899px) {
   .game-board {
-    grid-template-columns: repeat(5, 130px);
+    grid-template-columns: repeat(5, 128px);
     grid-template-rows: repeat(4, 177px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
@@ -201,7 +201,7 @@ a:hover {
 }
 @media screen and  (min-width: 500px) and (max-width: 899px) {
   .game-board {
-    grid-template-columns: repeat(5, 130px);
+    grid-template-columns: repeat(5, 128px);
     grid-template-rows: repeat(4, 177px);
     grid-column-gap: 6px;
     grid-row-gap: 12px;
