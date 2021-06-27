@@ -155,7 +155,7 @@ a:hover {
   justify-content: center;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 499px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -170,7 +170,7 @@ a:hover {
   }
   
 }
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 499px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -181,6 +181,33 @@ a:hover {
 
 
 }
+@media screen and (max-width: 899px) {
+  .game-board {
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(6, 180px);
+    grid-column-gap: 6px;
+    grid-row-gap: 12px;
+  }
+  .card-face.is-back {
+  
+  background-repeat: no-repeat;
+  
+  background-image: url('/images/backreduced.png');
+  }
+  
+}
+@media screen and (min-width: 899px) {
+  .game-board {
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(6, 180px);
+    grid-column-gap: 6px;
+    grid-row-gap: 12px;
+
+  }
+
+
+}
+
 
 @media screen and (min-width: 900px) {
   .game-board {
