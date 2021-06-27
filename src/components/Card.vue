@@ -93,16 +93,6 @@ export default {
   
 }
 
-@media screen and (min-width: 400px) {
-  .card-face.is-back {
-   background-repeat: no-repeat;
-  background-image: url('/images/backreduced.png');
-    
-    
-  }
-  
-}v
-
 
 .card-image {
   max-width: 100%;
