@@ -158,7 +158,7 @@ a:hover {
   .game-board {
     grid-template-columns: repeat(3, 128px);
     grid-template-rows: repeat(6, 177px);
-    grid-column-gap: 6px;
+    grid-column-gap: 8px;
     grid-row-gap: 12px;
   }
   .card-face.is-back {
@@ -174,7 +174,7 @@ a:hover {
   .game-board {
     grid-template-columns: repeat(3, 128px);
     grid-template-rows: repeat(6, 177px);
-    grid-column-gap: 6px;
+    grid-column-gap: 8px;
     grid-row-gap: 12px;
 
   }
@@ -185,7 +185,7 @@ a:hover {
   .game-board {
     grid-template-columns: repeat(5, 128px);
     grid-template-rows: repeat(4, 177px);
-    grid-column-gap: 6px;
+    grid-column-gap: 8px;
     grid-row-gap: 12px;
   }
   .card-face.is-back {
@@ -203,7 +203,7 @@ a:hover {
   .game-board {
     grid-template-columns: repeat(5, 128px);
     grid-template-rows: repeat(4, 177px);
-    grid-column-gap: 6px;
+    grid-column-gap: 8px;
     grid-row-gap: 12px;
 
   }
