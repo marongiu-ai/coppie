@@ -167,6 +167,7 @@ a:hover {
   background-repeat: no-repeat;
   
   background-image: url('/images/backreduced.png');
+  }
   
 }
 @media screen and (min-width: 500px) {
