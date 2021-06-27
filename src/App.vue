@@ -170,7 +170,7 @@ a:hover {
   }
   
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 599px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
