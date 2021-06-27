@@ -181,7 +181,7 @@ a:hover {
 
 
 }
-@media screen and (min-width: 899px) {
+@media screen and (max-width: 899px) {
   .game-board {
     grid-template-columns: repeat(4, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -196,7 +196,7 @@ a:hover {
   }
   
 }
-@media screen and (min-width: 899px) {
+@media screen and (max-width: 899px) {
   .game-board {
     grid-template-columns: repeat(4, 130px);
     grid-template-rows: repeat(6, 180px);
