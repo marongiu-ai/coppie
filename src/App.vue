@@ -156,7 +156,7 @@ a:hover {
   justify-content: center;
 }
 
-@media screen and (min-width: 499px) {
+@media screen and (max-width: 499px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -171,7 +171,7 @@ a:hover {
   }
   
 }
-@media screen and (min-width: 499px) {
+@media screen and (max-width: 499px) {
   .game-board {
     grid-template-columns: repeat(3, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -182,7 +182,7 @@ a:hover {
 
 
 }
-@media screen and (max-width: 899px) {
+@media screen and (min-width: 500px) and (max-width: 899px) {
   .game-board {
     grid-template-columns: repeat(4, 130px);
     grid-template-rows: repeat(6, 180px);
@@ -197,7 +197,7 @@ a:hover {
   }
   
 }
-@media screen and (max-width: 899px) {
+@media screen and  (min-width: 500px) and (max-width: 899px) {
   .game-board {
     grid-template-columns: repeat(4, 130px);
     grid-template-rows: repeat(6, 180px);
