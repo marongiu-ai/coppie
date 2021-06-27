@@ -88,9 +88,11 @@ export default {
   background-image: url('/images/Spider.png');
   background-repeat: no-repeat;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 
 .card-image {
