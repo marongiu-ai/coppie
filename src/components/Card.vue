@@ -94,6 +94,13 @@ export default {
   
 }
 
+.card-face.is-back:hover {
+  
+  color:white;
+  transform: translate(-50%,-50%);
+  
+}
+
 
 .card-image {
   max-width: 100%;
