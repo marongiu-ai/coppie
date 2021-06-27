@@ -111,7 +111,7 @@ body {
 }
 
 html {
-  background-image: linear-gradient(rgb(0, 33, 0),green, brown, green,rgb(0, 33, 0));
+  background-image: radial-gradient(#9d5900,3d2200);
   background-color: #00070c;
 }
 
