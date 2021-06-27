@@ -52,7 +52,9 @@ export default {
       />
       <img v-if="matched" src="/images/checkmark.svg" class="icon-checkmark" />
     </div>
-    <div class="card-face is-back"></div>
+    <div class="card-face is-back">
+    <img class="spider" url('/images/Spider.png')>
+    </div>
   </div>
 </template>
 
@@ -85,7 +87,7 @@ export default {
 }
 
 .card-face.is-back {
-  background-image: url('/images/Spider.png');
+  
   background-repeat: no-repeat;
   background-color: black;
   align-self: flex-start;
